@@ -1,0 +1,17 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        ' Declaring variables
+        Dim number As Integer = 10 ' integer variable
+        Dim floatingPointNumber As Double = 3.14 ' double-precision floating-point variable
+        Dim text As String = "Hello" ' string variable
+        Dim flag As Boolean = True ' boolean variable
+
+        ' Printing variables
+        Console.WriteLine("Number: " & number)
+        Console.WriteLine("Floating Point Number: " & floatingPointNumber)
+        Console.WriteLine("Text: " & text)
+        Console.WriteLine("Flag: " & flag)
+    End Sub
+End Module

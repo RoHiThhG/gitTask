@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+int a= 10;
+double b=20;
+float c=30;
+bool d=true;
+        Console.WriteLine("Hello, World!"+a+" "+b+" "+c+" "+d+" ");
+    }
+}
